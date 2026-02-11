@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="nl">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ </head>
+ <body>
+  <header>
+   <nav class="navbar navbar-expand-md sticky-top bg-white border-bottom" aria-label="Galvenā navigācija">
+    <div class="container-fluid">
+     <a class="navbar-brand d-flex align-items-center" href="/"> 
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+       <rect width="40" height="40" rx="8" fill="var(--primary)" /> <path d="M20 10L28 15V25L20 30L12 25V15L20 10Z" stroke="white" stroke-width="2" stroke-linejoin="round" /> <circle cx="20" cy="20" r="3" fill="white" />
+      </svg> 
+      <span class="ms-2 fw-bold">AutoDrošība</span> 
+     </a> <a href="#pieteikuma-forma" class="btn btn-primary d-md-none order-md-3 ms-2">Saņemt piedāvājumu</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Pārslēgt navigāciju"><span class="navbar-toggler-icon"></span></button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+       <li class="nav-item"><a class="nav-link" href="/" aria-current="page">Sākums</a></li>
+       <li class="nav-item"><a class="nav-link" href="about.html">Par mums</a></li>
+       <li class="nav-item"><a class="nav-link" href="services.html">Pakalpojumi</a></li>
+       <li class="nav-item"><a class="nav-link" href="contact.html">Kontakti</a></li>
+      </ul>
+      <a href="#pieteikuma-forma" class="btn btn-primary ms-md-3 d-none d-md-inline-block">Saņemt piedāvājumu</a>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <main>
+   <section class="hero-section py-5 text-center" data-aos="fade-up">
+    <div class="container py-md-5">
+     <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+       <h1 class="display-4 fw-bold mb-3">Bedankt voor uw aanvraag!</h1>
+       <p class="lead mb-4">Uw bericht is succesvol verzonden. Wij nemen binnen 24 uur contact met u op om de details te bespreken.</p>
+       <a href="index.html" class="c-button c-button--primary c-button--large me-sm-3">Terug naar Home</a> <a href="services.html" class="c-button c-button--secondary c-button--large mt-3 mt-sm-0">Bekijk Diensten</a>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="py-4 py-md-5 bg-light" data-aos="fade-up">
+    <div class="container text-center">
+     <div class="ratio ratio-16x9 mb-4" style="max-width:800px;margin:auto;">
+      <img src="https://images.unsplash.com/photo-1597764690523-15bea4c581c9?w=800&amp;h=450&amp;fit=crop" alt="Bedankt voor uw aanvraag bij AutoService Premium" class="img-fluid rounded" loading="lazy" width="800" height="450" style="object-fit:cover">
+     </div>
+     <h2 class="display-6 fw-bold mb-3">We staan klaar om uw auto in topconditie te houden</h2>
+     <p class="lead text-muted mb-4">Onze experts nemen spoedig contact met u op voor de bevestiging van uw afspraak.</p>
+     <a href="about.html" class="c-button c-button--outline">Meer over ons</a>
+    </div>
+   </section>
+  </main>
+  <footer class="footer py-4 py-md-5 bg-dark text-light">
+   <div class="container">
+    <div class="row g-4">
+     <div class="col-lg-4">
+      <div class="d-flex align-items-center mb-3">
+       <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="40" height="40" rx="8" fill="var(--accent)" /> <path d="M20 10L28 15V25L20 30L12 25V15L20 10Z" stroke="white" stroke-width="2" stroke-linejoin="round" /> <circle cx="20" cy="20" r="3" fill="white" />
+       </svg>
+       <span class="ms-2 h5 mb-0 fw-bold">AutoDrošība</span>
+      </div>
+      <p class="mb-3">Uzticama un profesionāla automašīnu apdrošināšana Latvijā. Mēs rūpējamies par jūsu drošību uz ceļa.</p>
+      <div class="mb-2">
+       <strong>Adrese:</strong>
+       <br>
+       <span>{address}</span>
+      </div>
+      <div class="mb-2">
+       <strong>Tālrunis:</strong>
+       <br>
+       <a href="tel:{telephone}" class="text-light text-decoration-none">{telephone}</a>
+      </div>
+      <div>
+       <strong>E-pasts:</strong>
+       <br>
+       <a href="mailto:info@domain.com" class="text-light text-decoration-none">info@domain.com</a>
+      </div>
+     </div>
+     <div class="col-6 col-lg-2">
+      <h3 class="h6 fw-bold mb-3">Navigācija</h3>
+      <ul class="list-unstyled">
+       <li class="mb-2"><a href="/" class="text-light text-decoration-none">Sākums</a></li>
+       <li class="mb-2"><a href="about.html" class="text-light text-decoration-none">Par mums</a></li>
+       <li class="mb-2"><a href="services.html" class="text-light text-decoration-none">Pakalpojumi</a></li>
+       <li class="mb-2"><a href="contact.html" class="text-light text-decoration-none">Kontakti</a></li>
+      </ul>
+     </div>
+     <div class="col-6 col-lg-3">
+      <h3 class="h6 fw-bold mb-3">Pakalpojumi</h3>
+      <ul class="list-unstyled">
+       <li class="mb-2"><a href="services.html#kasko" class="text-light text-decoration-none">KASKO apdrošināšana</a></li>
+       <li class="mb-2"><a href="services.html#octa" class="text-light text-decoration-none">OCTA apdrošināšana</a></li>
+       <li class="mb-2"><a href="services.html#roadside" class="text-light text-decoration-none">Ceļu palīdzība</a></li>
+       <li class="mb-2"><a href="services.html#business" class="text-light text-decoration-none">Uzņēmumu apdrošināšana</a></li>
+      </ul>
+     </div>
+     <div class="col-lg-3">
+      <h3 class="h6 fw-bold mb-3">Juridiskā informācija</h3>
+      <ul class="list-unstyled">
+       <li class="mb-2"><a href="privacy.html" class="text-light text-decoration-none">Privātuma politika</a></li>
+       <li class="mb-2"><a href="terms_and_conditions.html" class="text-light text-decoration-none">Noteikumi un nosacījumi</a></li>
+       <li class="mb-2"><a href="terms_of_services.html" class="text-light text-decoration-none">Pakalpojumu noteikumi</a></li>
+       <li class="mb-2"><a href="cookie_policy.html" class="text-light text-decoration-none">Sīkdatņu politika</a></li>
+       <li class="mb-2"><a href="gdpr-rights.html" class="text-light text-decoration-none">GDPR tiesības</a></li>
+       <li class="mb-2"><a href="impressum.html" class="text-light text-decoration-none">Impressum</a></li>
+      </ul>
+     </div>
+    </div>
+    <hr class="my-4 border-secondary">
+    <div class="row">
+     <div class="col-md-6 text-center text-md-start">
+      <p class="mb-0 small">© 2025 AutoDrošība. Visas tiesības aizsargātas.</p>
+     </div>
+     <div class="col-md-6 text-center text-md-end">
+      <p class="mb-0 small">Izstrādāts ar rūpību Latvijas klientiem</p>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="script.js" defer></script>
+ </body>
+</html>
